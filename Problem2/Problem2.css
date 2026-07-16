@@ -1,0 +1,84 @@
+.card {
+    background: #ffffff;
+    padding: 16px;
+    border-radius: 0;
+    margin-bottom: -50px; 
+    box-shadow: 0 8px 18px rgba(33, 41, 94, 0.08);
+}
+
+.budget-card {
+    padding: 20px;
+}
+
+.budget-head {
+    display: block;
+    margin-bottom: 14px;
+}
+
+.budget-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1f2544;
+}
+
+.budget-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.budget-icon.icon-food {
+    background-image:
+        url("assets/icons_asset/food_icon.svg"),
+        linear-gradient(135deg, #f8c5d2 0%, #f7dde6 100%);
+    background-size: 62% 62%, 100% 100%;
+}
+
+.budget-icon.icon-transportation {
+    background-image:
+        url("assets/icons_asset/transportation_icon.svg"),
+        linear-gradient(135deg, #f8c5d2 0%, #f7dde6 100%);
+    background-size: 62% 62%, 100% 100%;
+}
+
+.budget-icon.icon-study {
+    background-image:
+        url("assets/icons_asset/study_icon.svg"),
+        linear-gradient(135deg, #f8c5d2 0%, #f7dde6 100%);
+    background-size: 62% 62%, 100% 100%;
+}
+
+.budget-limit-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.budget-limit-label {
+    font-size: 13px;
+    color: #6c73a7;
+    font-weight: 600;
+}
+
+.budget-limit-input {
+    width: 150%;
+    padding: 12px 14px;
+    border-radius: 14px;
+    border: 1.5px solid #c7d0fb;
+    background: #f5f7ff;
+    font-size: 14px;
+}
+
+.budget-limit-input:focus {
+    border-color: #9aa6f8;
+    box-shadow: 0 0 0 3px rgba(154, 166, 248, 0.35);
+}
+
+.budget-status {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #9ca3af;
+}
